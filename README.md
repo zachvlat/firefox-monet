@@ -20,9 +20,9 @@ mkdir chrome
 
 cd chrome
 
-wget https://raw.githubusercontent.com/zachvlat/Dynamic-Color-Firefox-Theme/refs/heads/main/chrome/userChrome.css -O userChrome.css
+wget https://raw.githubusercontent.com/zachvlat/firefox-monet/refs/heads/main/chrome/userChrome.css -O userChrome.css
 
-wget https://raw.githubusercontent.com/zachvlat/Dynamic-Color-Firefox-Theme/refs/heads/main/chrome/userContent.css -O userContent
+wget https://raw.githubusercontent.com/zachvlat/firefox-monet/refs/heads/main/chrome/userContent.css -O userContent
 ```
 ### Linux (Flatpak)
 ```bash
@@ -30,11 +30,10 @@ cd ./var/org.mozilla.firefox/config/mozilla/profiles
 
 for /d %i in (*release*) do mkdir "%i\chrome"
 
-for /d %i in (*release*) do wget -O "%i\chrome\userChrome.css" https://raw.githubusercontent.com/zachvlat/Dynamic-Color-Firefox-Theme/refs/heads/main/chrome/userChrome.css
+for /d %i in (*release*) do wget -O "%i\chrome\userChrome.css" https://raw.githubusercontent.com/zachvlat/firefox-monet/refs/heads/main/chrome/userChrome.css
 
-for /d %i in (*release*) do wget -O "%i\chrome\userContent.css" https://raw.githubusercontent.com/zachvlat/Dynamic-Color-Firefox-Theme/refs/heads/main/chrome/userContent.css
+for /d %i in (*release*) do wget -O "%i\chrome\userContent.css" https://raw.githubusercontent.com/zachvlat/firefox-monet/refs/heads/main/chrome/userContent.css
 
-for /d %i in (*release*) do wget -O "%i\user.js" https://raw.githubusercontent.com/zachvlat/firefox/refs/heads/main/user.js
 ```
 
 ## Examples
