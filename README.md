@@ -1,4 +1,4 @@
-# Dynamic Firefox Theme
+# Firefox Monet
 <img width="650" height="500" alt="Screenshot_2026-04-09_17-19-14(1)" src="https://github.com/user-attachments/assets/7bb875ea-4b77-41b7-b1ae-9dfe097f5706" />
 
 A minimal dark Firefox theme that dynamically colors the interface using the system's accent color (works on Windows, Linux and probably MacOS) while maintaining the browser's default layout and behavior.
